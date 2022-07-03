@@ -143,5 +143,26 @@ if iniciar == "Remover":
 
 
 # <<<<<<<<<<<<<<<<<<<<<<< Bruno >>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Menu Genérico
+
+print("\033[1;36;47m-\033[m"*24)
+print("\033[5;36;47mBem-vindo ao Sistema de \nGuarda-Roupa Virtual\033[m")
+print("\033[1;34;47m-\033[m"*20)
+
+print("O que deseja fazer?")
+select = int(input("1- Cadastrar/Remover/Atualizar novas peças \n2- Listar peças de roupas \n3- Listar peças disponíveis para doação \n4- Selecionar opções de estilo por nome \n5- Listar todos estilos \n6- Listar peças de roupas doadas \n\033[5;36;47mEscolha um número de 1 a 6 para iniciarmos: \033[m"))
+if select == 1:
+    print("funcao1()")
+elif select == 2:
+    print("funcao2()")
+elif select == 3:
+    print('funcao3()')
+elif select == 4:
+    print('funcao4()')
+elif select == 5:
+    print('funcao5()')
+elif select == 6:
+    print('funcao6()')
+
 
 # <<<<<<<<<<<<<<<<<<<<<<< Julia >>>>>>>>>>>>>>>>>>>>>>>>>>>
